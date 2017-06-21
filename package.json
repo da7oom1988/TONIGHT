@@ -1,0 +1,34 @@
+{
+  "name": "tonight",
+  "version": "1.0.0",
+  "description": "FCC back-end nightlife project ",
+  "main": "server.js",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Abdulrahman Algedairey",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.8.3",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "moment": "^2.18.1",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "yelp-fusion": "^1.0.3"
+  }
+}
